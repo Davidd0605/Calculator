@@ -1,17 +1,12 @@
-let counter = 0;
 
-document.getElementById("counter").textContent = counter;
-
-document.getElementById("inc").onclick = function() {
-    counter ++;
-    document.getElementById("counter").textContent = counter;
+let nr1 = document.getElementById("first").value;
+let nr2 = document.getElementById("second").value;
+let rez;
+document.getElementById("insert").onclick = function ()
+{
+    nr1 = document.getElementById("first").value;
+    nr2 = document.getElementById("second").value;
+    nr1 = Number(nr1);
+    nr2 = Number (nr2);
+    window.alert(nr1 + nr2);
 }
-document.getElementById("dec").onclick = function() {
-    counter --;
-    document.getElementById("counter").textContent = counter;
-}
-document.getElementById("res").onclick = function() {
-    counter = 0;
-    document.getElementById("counter").textContent = counter;
-}
-
