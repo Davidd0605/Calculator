@@ -11,12 +11,14 @@ html
     background-image: url(https://preview.redd.it/heres-the-omni-man-model-i-made-what-do-you-think-v0-ebufobxvonmc1.png?width=1280&format=png&auto=webp&s=9b90941795f032b33d8f9089a852e7819a62f15e);
 }
 #inputs{
-    text-align: center;
+
+    align-self: center;
     
 }
 .inputs
 {
     border-radius: 5px;
+    color: aliceblue;
 }
 .labels
 {   border-color: rgb(164, 17, 17);
@@ -39,7 +41,7 @@ html
 }
 .operators
 {
-    font-size: 200%;
+    font-size: 100%;
     background-color: aqua;
     border-radius: 4px;
 }
