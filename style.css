@@ -10,3 +10,31 @@ html
     background-size: 50%;
     background-image: url(https://preview.redd.it/heres-the-omni-man-model-i-made-what-do-you-think-v0-ebufobxvonmc1.png?width=1280&format=png&auto=webp&s=9b90941795f032b33d8f9089a852e7819a62f15e);
 }
+#header1
+{
+    background-color: aliceblue;
+    align-self: center;
+    border-radius: 5px;
+}
+#main
+{
+    text-align: center;
+}
+#mybutton
+{
+    color: blueviolet;
+    background-color: aqua;
+    font-size: 2em;
+}
+#mybutton:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
+#mylabel
+{
+    background-color: bisque;
+    border: 1px;
+    border-style:dotted;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
