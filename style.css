@@ -1,40 +1,51 @@
-body{
-    font-family: Verdana;
-    font-size : 2em;
-    color: rgb(0, 0, 0);
-    align-self: center;
+body
+{
+    background-color: beige;
+}
 
-}
-html
+#calculatorbody
 {
-    background-size: 50%;
-    background-image: url(https://preview.redd.it/heres-the-omni-man-model-i-made-what-do-you-think-v0-ebufobxvonmc1.png?width=1280&format=png&auto=webp&s=9b90941795f032b33d8f9089a852e7819a62f15e);
-}
-#header1
-{
-    background-color: aliceblue;
-    align-self: center;
-    border-radius: 5px;
-}
-#main
-{
-    text-align: center;
-}
-#mybutton
-{
-    color: blueviolet;
-    background-color: aqua;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
+    line-height: .75em;
+    background-color: aliceblue;
+    text-align: center;
+    width: auto;
+    max-width: 450px;
+    height: auto;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px;
 }
-#mybutton:hover{
-    color: aqua;
-    background-color: blueviolet;
-}
-#mylabel
+.button
 {
-    background-color: bisque;
-    border: 1px;
-    border-style:dotted;
-    padding: 10px 10px;
-    border-radius: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.button:hover
+{
+    border-style: dotted;
+    background-color: rgb(109, 108, 104);
+}
+#calcscreen
+{
+    size:4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:darkgreen;
+    max-width: 200px;
+    color: white;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: black;
+    position: relative;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
