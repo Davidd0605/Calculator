@@ -35,12 +35,12 @@ body
 }
 #calcscreen
 {
-    size:4em;
+    font-size: 2em;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     background-color:darkgreen;
-    max-width: 200px;
+    max-width: 220px;
     color: white;
     border-radius: 10px;
     border-style:solid;
@@ -48,4 +48,18 @@ body
     border-color: black;
     position: relative;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#history
+{
+    background-color: beige;
+    border-style: solid;
+    border-radius: 8px;
+    width: 50%;
+    height: auto;
+    max-width: 30px;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    right: 75%;
 }

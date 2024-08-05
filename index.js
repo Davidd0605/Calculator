@@ -48,10 +48,12 @@ buttons[4].onclick = function()
         rez = number1 * number2;
     if(operation == 4)
         rez = number1 / number2;
-    if(operation!= 0)
-        calcscreen.textContent = rez;
-    else
-        calcscreen.textContent = number1;
+    if(operation== 0)
+        rez = number2;
+
+    calcscreen.textContent = rez;
+    document.getElementById("history").textContent+=rez;
+    document.getElementById("history").textContent +='\n';
 }
 buttons[5].onclick = function()
 {
