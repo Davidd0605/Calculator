@@ -19,17 +19,23 @@ body
     border-style:solid;
     border-radius: 10px;
     padding: 10px;
+    transition-duration: 200ms;
+    transition-property: transform;
 }
 .button
 {
+    transform: rotate(360deg);
     background-color: beige;
     border-radius: 5px;
     width: 40px;
     height: 40px;
     margin: 5px;
+    transition-duration: 100ms;
+    transition-property: transform;
 }
 .button:hover
 {
+    transform: rotate(270deg);
     border-style: dotted;
     background-color: rgb(109, 108, 104);
 }
@@ -63,3 +69,9 @@ body
     left: 25%;
     right: 75%;
 }
+.historyitem:hover
+{
+    color: aqua;
+    cursor: pointer;
+}
+

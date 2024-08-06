@@ -4,6 +4,7 @@ let number2;
 let operation = 0;
 let selected = false;
 let rez;
+let history = document.getElementById("history");
 let calcscreen = document.getElementById("calcscreen");
 let buttons = document.getElementsByClassName("button");
 buttons[0].onclick = function()
@@ -52,8 +53,11 @@ buttons[4].onclick = function()
         rez = number2;
 
     calcscreen.textContent = rez;
-    document.getElementById("history").textContent+=rez;
-    document.getElementById("history").textContent +='\n';
+    let paragraph = document.createElement("p");
+    paragraph.textContent = rez;
+    history.appendChild(paragraph);
+    paragraph.classList.add("historyitem");
+    paragraph.addEventListener("dblclick", function(){history.removeChild(paragraph)});
 }
 buttons[5].onclick = function()
 {
@@ -99,4 +103,5 @@ buttons[15].onclick = function()
 {
     calcscreen.textContent = "";
     number1 = number2 = 0;
+    document.getElementById("history").textContent = ";"
 }
